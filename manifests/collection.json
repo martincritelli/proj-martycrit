@@ -1,0 +1,13 @@
+{
+  "id" : "https://martincritelli.github.io/proj-martycrit/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in martincritelli/proj-martycrit project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest_prova_131222.json",
+    "label" : "Manifest prova_martin"
+  } ]
+}
