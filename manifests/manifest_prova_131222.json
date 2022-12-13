@@ -1,0 +1,89 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest_prova_131222.json",
+  "@type" : "sc:Manifest",
+  "label" : "Manifest prova_martin",
+  "metadata" : [ {
+    "label" : "Creator",
+    "value" : "Martin Critelli"
+  }, {
+    "label" : "Date",
+    "value" : "2022-12-13"
+  }, {
+    "label" : "Type",
+    "value" : "Digital Object"
+  } ],
+  "description" : [ {
+    "@value" : "Creazione di un manifest di prova con 2 canvas",
+    "@language" : "it"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "sequences" : [ {
+    "@id" : "http://3a4df00f-9a77-4178-9fdf-66a35ce4c10b",
+    "@type" : "sc:Sequence",
+    "label" : "Sequenza ordinaria",
+    "canvases" : [ {
+      "@id" : "http://df747cfc-d21e-489b-8d71-a8c69be81303",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas prova_1",
+      "height" : 720,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f798928b-7af4-4a55-aa55-7a9f9da1dde9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/3/CRITELLI.PNG/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/3/CRITELLI.PNG",
+            "profile" : "level2"
+          },
+          "height" : 720,
+          "width" : 1280
+        },
+        "on" : "http://df747cfc-d21e-489b-8d71-a8c69be81303"
+      } ]
+    }, {
+      "@id" : "http://79be465b-0619-42a7-928e-cf612da2e640",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas prova_2",
+      "height" : "1024",
+      "width" : "688",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d109d54f-d2d1-44a7-8694-9cdc00225efd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/3/immagine_prova.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/3/immagine_prova.jpg",
+            "profile" : "level2"
+          },
+          "height" : 1024,
+          "width" : 688
+        },
+        "on" : "http://79be465b-0619-42a7-928e-cf612da2e640"
+      } ],
+      "metadata" : [ {
+        "label" : "Description",
+        "value" : "Immagine di prova n.2 del manifest"
+      }, {
+        "label" : "Date",
+        "value" : "xxxx"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://79be465b-0619-42a7-928e-cf612da2e640"
+  },
+  "viewingDirection" : "left-to-right"
+}
