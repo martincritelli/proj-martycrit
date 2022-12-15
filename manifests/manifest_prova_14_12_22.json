@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest_prova_14_12_22.json",
+  "@type" : "sc:Manifest",
+  "label" : "Manifest_prova_martin",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Creazione di un manifest di prova",
+    "@language" : "it"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "martin critelli",
+  "sequences" : [ {
+    "@id" : "http://68b9176e-52df-4f93-a4a9-8635185c0ed4",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://511f6661-d475-434b-9611-17f8b50dc499",
+      "@type" : "sc:Canvas",
+      "label" : "canvas prova_1",
+      "height" : "720",
+      "width" : "1280",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c9371431-95f2-4694-9b46-1be7737d7ffb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/3/CRITELLI.PNG/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/3/CRITELLI.PNG",
+            "profile" : "level2"
+          },
+          "height" : 720,
+          "width" : 1280
+        },
+        "on" : "http://511f6661-d475-434b-9611-17f8b50dc499"
+      } ]
+    }, {
+      "@id" : "http://22ab9e4b-ab07-41cc-8c19-6890e7e85a06",
+      "@type" : "sc:Canvas",
+      "label" : "canvas prova 2",
+      "height" : "1024",
+      "width" : "688",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://75875492-becd-473c-abe6-5b8e550856df",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://127.0.0.1:8182/iiif/3/immagine_prova.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/3/immagine_prova.jpg",
+            "profile" : "level2"
+          },
+          "height" : 1024,
+          "width" : 688
+        },
+        "on" : "http://22ab9e4b-ab07-41cc-8c19-6890e7e85a06"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://511f6661-d475-434b-9611-17f8b50dc499"
+  },
+  "viewingDirection" : "left-to-right"
+}
