@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest_prova_131222.json",
     "label" : "Manifest prova_martin"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest_prova_14_12_22.json",
+    "label" : "Manifest_prova_martin"
   } ]
 }
