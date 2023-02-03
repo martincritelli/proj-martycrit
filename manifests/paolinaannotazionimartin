@@ -1,0 +1,189 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://martincritelli.github.io/proj-martycrit/manifests/paolinaannotazionimartin",
+  "type" : "Manifest",
+  "label" : {
+    "it" : [ "Paolina Borghese Bonaparte come Venere vincitrice, 1804-1808, Canova Antonio" ]
+  },
+  "rights" : "http://creativecommons.org/license/by/4.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Provenance" ]
+    },
+    "value" : {
+      "it" : [ "Principe Camillo Borghese, 1808; Inventario Fidecommissario Borghese,1833, A, p. 15; Acquisto dello Stato, 1902." ]
+    }
+  },
+  "summary" : {
+    "it" : [ "Ritratta da Antonio Canova come Venere vincitrice del giudizio di Paride,Paolina Borghese Bonaparte (1780-1825) è raffigurata a seno scoperto, distesa su due cuscini e un morbido materassso, con la mano destra al capo e la sinistra che tiene il pomo. Secondo il noto episodio della mitologia greca, Paride assegnò a lei il pomo d'oro come segno del suo primato in bellezza, conteso con Giunone e Minerva. La scultura, eseguita a Roma tra il 1804 e il 1808, destò un certo scalpore fra i contemporanei: in essa grazia antica e artificio compositivo si accordano con la resa naturalistica, quasi pittorica, dei morbidi incarnati e dei veli leggeri che coprono i fianchi di Paolina, dando vita ad un insieme  estremamente seducente. Il triclinio, noto come 'agrippina', è decorato da un drappeggio con frange, borchie, girali e figure antropomorfe sui lati e sulla spalliera e nasconde un meccanismo che permette alla scultura di girare e mostrarsi a 360°. I disegni preparatori dell’opera sono conservati al Museo Civico di Bassano, mentre il modello in gesso è ubicato nella Gipsoteca di Possagno." ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "it" : [ "titolo" ]
+    },
+    "value" : {
+      "it" : [ "Paolina Borghese Bonaparte come Venere vincitrice" ],
+      "en" : [ "Paolona Borghese Bonaparte as Venus Victrix" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "tipologia" ]
+    },
+    "value" : {
+      "it" : [ "scultura" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "datazione" ]
+    },
+    "value" : {
+      "it" : [ "1804-1808" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "periodo" ]
+    },
+    "value" : {
+      "it" : [ "700-800" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "osservazioni" ]
+    },
+    "value" : {
+      "en" : [ "The work was commissioned from the famous sculptor in 1804 by Prince Camillo Borghese(1775-1832) in honour of his young wife, sister of the emperor Napoleon. Creating quite stir among her contemporaries, the princess dressed in the guise of the goddess Venus who was victorious in the Judgement of Paris, to magnify her social and dynastic status and her famous beauty. Paolina(1780-1825) is lying semi-nude on a painted wood dormeuse decorated with gilted insets, her slender fingers holding the apple attributed to the." ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "tutti_autori" ]
+    },
+    "value" : {
+      "it" : [ "Canova Antonio" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "tecnica" ]
+    },
+    "value" : {
+      "it" : [ "marmo di Carrara" ],
+      "en" : [ "Carrara marble" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "misure" ]
+    },
+    "value" : {
+      "it" : [ "alt. cm. 92, con il letto cm. 160" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "posizione" ]
+    },
+    "value" : {
+      "it" : [ "s1" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "numero_inventario" ]
+    },
+    "value" : {
+      "it" : [ "LIV" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "mostre" ]
+    },
+    "value" : {
+      "it" : [ "2007-2008 Roma, Galleria Borghese" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "restauri" ]
+    },
+    "value" : {
+      "it" : [ "1924 C. Fossi, 1955 V. Consalvi, 1957 E. Pedrazzoni,1957 S. Camilucci, 1965 S. Camillucci, 1996 SECTILE s.n.c./ Ceccotti,1996/ 1997 Cons. Capitolino" ]
+    }
+  }, {
+    "label" : {
+      "it" : [ "bibliografia" ]
+    },
+    "value" : {
+      "none" : [ "C.L. Fernow, Uber den Bildhauer Canova und dessen Werke, Zurich 1806, p. 228.", "G.A. Guattani, Memorie enciclopediche roamane sulle belle arti, Roma 1808, p. 135 ss.", "I. Albrizzi Teotochi, Opere di scultura e di plastica di Antonio Canova, Roma 1817, p. 11", "P.A. Paravia, Notizie intorno alla vita di Antonio Canova giuntovi il catalogo cronologico di tutte le sue opere, Roma 1823, pp 25 ss., 84." ]
+    }
+  } ],
+  "rendering" : [ {
+    "id" : "https://www.collezionegalleriaborghese.it/opere/paolina-borghese-bonaparte-come-venere-vincitrice",
+    "type" : "Text",
+    "label" : {
+      "en" : [ "Official page of the sculture" ]
+    },
+    "format" : "text/html"
+  } ],
+  "provider" : [ {
+    "id" : "https://galleriaborghese.beniculturali.it/",
+    "type" : "Agent",
+    "label" : {
+      "it" : [ "Galleria Borghese" ]
+    },
+    "homepage" : [ {
+      "id" : "https://galleriaborghese.beniculturali.it/",
+      "type" : "Text",
+      "label" : {
+        "it" : [ "sito internet della Galleria Borghese" ]
+      },
+      "format" : "text/html"
+    } ]
+  } ],
+  "thumbnail" : [ {
+    "id" : "https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/Canova-Paolina.tif/full/full/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/tif",
+    "service" : [ {
+      "id" : "https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/Canova-Paolina.tif",
+      "type" : "ImageService2",
+      "profile" : "https://6012.cophilab-cloud.ilc.cnr.it/share%2Ftirocinio%2FCanova-Paolina.tif/level2.json"
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "https://gist.githubusercontent.com/martincritelli/d4c687c1a4b4bc5f75fb60ee4ddd4c4a/raw/6cbaa795e8f7c3200c604c134ef2463025b233e3/paolina_annotazioni_martin/canvas",
+    "type" : "Canvas",
+    "label" : {
+      "it" : [ "Paolina intera" ]
+    },
+    "width" : 5299,
+    "height" : 4189,
+    "items" : [ {
+      "id" : "https://gist.githubusercontent.com/martincritelli/d4c687c1a4b4bc5f75fb60ee4ddd4c4a/raw/6cbaa795e8f7c3200c604c134ef2463025b233e3/paolina_annotazioni_martin/canvas/annopage",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://gist.githubusercontent.com/martincritelli/d4c687c1a4b4bc5f75fb60ee4ddd4c4a/raw/6cbaa795e8f7c3200c604c134ef2463025b233e3/paolina_annotazioni_martin/canvas/annopage/annotation-1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://6012.cophilab-cloud.ilc.cnr.it/share/tirocinio/Canova-Paolina.tif/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/tif",
+          "width" : 5299,
+          "height" : 4189
+        },
+        "target" : "https://gist.githubusercontent.com/martincritelli/d4c687c1a4b4bc5f75fb60ee4ddd4c4a/raw/6cbaa795e8f7c3200c604c134ef2463025b233e3/paolina_annotazioni_martin/canvas"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://gist.githubusercontent.com/martincritelli/d4c687c1a4b4bc5f75fb60ee4ddd4c4a/raw/6cbaa795e8f7c3200c604c134ef2463025b233e3/paolina_annotazioni_martin/annots",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://gist.githubusercontent.com/martincritelli/d4c687c1a4b4bc5f75fb60ee4ddd4c4a/raw/6cbaa795e8f7c3200c604c134ef2463025b233e3/paolina_annotazioni_martin/annotazione-1",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "body" : {
+          "type" : "TextBody",
+          "language" : "it",
+          "value" : "<p>Paolina come Venere vincitrice <a href='https://www.collezionegalleriaborghese.it/opere/paolina-borghese-bonaparte-come-venere-vincitrice'>GB - Paolina <img src='https://www.collezionegalleriaborghese.it/uploads/server/files/medium/LIV.jpg'></a></p>",
+          "format" : "text/html"
+        },
+        "target" : "https://gist.githubusercontent.com/martincritelli/d4c687c1a4b4bc5f75fb60ee4ddd4c4a/raw/6cbaa795e8f7c3200c604c134ef2463025b233e3/paolina_annotazioni_martin/canvas#xywh=265,661,1260,1239"
+      } ]
+    } ]
+  } ]
+}
