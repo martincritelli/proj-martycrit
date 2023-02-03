@@ -35,5 +35,11 @@
       "it" : [ "Paolina Borghese Bonaparte come Venere vincitrice, 1804-1808, Canova Antonio" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://martincritelli.github.io/proj-martycrit/manifests/paolinaannotazionimartin.json",
+    "label" : {
+      "it" : [ "Paolina Borghese Bonaparte come Venere vincitrice, 1804-1808, Canova Antonio" ]
+    },
+    "type" : "Manifest"
   } ]
 }
