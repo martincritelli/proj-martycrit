@@ -1,0 +1,111 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ {
+    "label" : "title",
+    "value" : "Van Gogh's artworks collection"
+  }, {
+    "label" : "creator",
+    "value" : "Value"
+  } ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://8189a0ad-206f-42cf-9d06-ef7130762ea4",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://f8443cf2-648f-4223-974c-5bcddb117fa6",
+      "@type" : "sc:Canvas",
+      "label" : "Irises_front",
+      "height" : "825",
+      "width" : "1024",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://484542a5-d8d4-4af8-a9c4-002974401fc8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/iris_getty.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/iris_getty.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 100000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 805,
+          "width" : 1024
+        },
+        "on" : "http://f8443cf2-648f-4223-974c-5bcddb117fa6"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "title",
+        "value" : "irises"
+      }, {
+        "label" : "creator",
+        "value" : {
+          "@value" : "van gogh",
+          "@language" : "en"
+        }
+      } ]
+    }, {
+      "@id" : "http://403f7d13-ea19-4fd4-8413-af6ab8a8ef3d",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1200,
+      "width" : 1515,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5323f43c-997a-488a-a881-243120fa738a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/notte_stellata.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/notte_stellata.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 100000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1200,
+          "width" : 1515
+        },
+        "on" : "http://403f7d13-ea19-4fd4-8413-af6ab8a8ef3d"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Label",
+        "value" : {
+          "@value" : "",
+          "@language" : ""
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://f8443cf2-648f-4223-974c-5bcddb117fa6"
+  }
+}
