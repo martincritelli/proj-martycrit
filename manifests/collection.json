@@ -51,5 +51,11 @@
       "en" : [ "Blank Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifestvideo.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
