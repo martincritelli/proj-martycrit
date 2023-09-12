@@ -45,5 +45,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest.json",
     "label" : "[Click to edit label]"
+  }, {
+    "id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest_video.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
