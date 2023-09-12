@@ -1,0 +1,71 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://martincritelli.github.io/proj-martycrit/manifests/manifest_video.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "items" : [ {
+    "id" : "/config/manifest-templates/blank.json/canvas/cb330f98-339d-4de6-94c3-5846fbc5d744",
+    "type" : "Canvas",
+    "height" : 360,
+    "width" : 450,
+    "duration" : 336.967982,
+    "label" : {
+      "en" : [ "Televisione%20la%20morte%20dell%27anima" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "" ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/cb330f98-339d-4de6-94c3-5846fbc5d744/annotation-page/ee0fc670-875a-46e1-b96a-4b01fa5865f5",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/ffe35508-498e-48ea-b1f4-7c00490a1b6c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/cb330f98-339d-4de6-94c3-5846fbc5d744",
+        "body" : {
+          "id" : "https://archive.org/download/TelevisioneLaMorteDellanima/Televisione%20la%20morte%20dell%27anima.mp4",
+          "type" : "Video",
+          "format" : "video/mp4",
+          "height" : 360,
+          "width" : 450,
+          "duration" : 336.967982
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/555818d7-ace5-42c8-beb4-acf3accb1499",
+    "type" : "Canvas",
+    "label" : {
+      "en" : [ "CH-FF1971-E-C-09-02" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/555818d7-ace5-42c8-beb4-acf3accb1499/annotation-page/36d2b6ca-a007-403c-a166-8352e961925c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/canvas/555818d7-ace5-42c8-beb4-acf3accb1499/annotation-page/36d2b6ca-a007-403c-a166-8352e961925c/annotation/e4818b40-049b-47ac-b7fe-d29ee66c7d0d",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "CH-FF1971-F-I-01-15" ]
+        },
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/555818d7-ace5-42c8-beb4-acf3accb1499",
+        "body" : {
+          "id" : "https://786atom-ais.docuteam.cloud/uploads/r/privatarchive-f-f-1971/e/6/7/e67ca8dd47f3c3796e68a214f4f95c1662c2f915847d2b98091594a8d7e4c498/CH-FF1971-F-I-01-15.mp4",
+          "type" : "Video",
+          "format" : "video/mp4",
+          "height" : 576,
+          "width" : 720,
+          "duration" : 1056.48
+        }
+      } ]
+    } ]
+  } ]
+}
